@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aortizproyectofinal.MainPage">
+
+    <StackLayout>
+        <Label Text="INICIO DE SESION" FontSize="24" HorizontalTextAlignment="Center"></Label>
+        <Image Source="c:\users\60666\source\repos\aortizproyectofinal\aortizproyectofinal\aortizproyectofinal.android\resources\drawable\icono.png"/>
+        <Entry x:Name="txtusuario" Placeholder="USUARIO" PlaceholderColor="red"/>
+        <Entry x:Name="txtcontraseña" Placeholder="CONTRASEÑA" PlaceholderColor="red"/>
+        <Button x:Name="btnlogin" Text="INICIAR SESION" Clicked="btnlogin_Clicked"/>
+        <Button x:Name="btnregistrar" Text="REGISTRAR" Clicked="btnregistrar_Clicked"/>    
+    </StackLayout>
+
+</ContentPage>
